@@ -58,6 +58,12 @@ it doesn't list all preconfigured shortcuts but most of them. to view/change all
 Logout and log back in. Before logging in, ensure that you have selected Wayland. To switch back, simply log out of Wayland and select your original desktop environment. You can find the dropdown menu to change the desktop environment on the login screen, usually located at the bottom right corner after selecting your name. Note that the location may vary depending on your Linux distribution.
 
 
+## Further resources : 
+[Hyprland official Wiki](https://wiki.hyprland.org/)
+
+[Hyprland on Arch Wiki](https://wiki.archlinux.org/title/Hyprland)
+
+[Community list of useful tools for hyprland](https://github.com/hyprland-community/awesome-hyprland)
 
 
 ## Screenshots 

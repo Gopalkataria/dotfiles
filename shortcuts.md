@@ -9,7 +9,19 @@ SUPER is the windows key ( referred to as mainmod in the config file )
 - `CTRL + SPACE`: Launch `rofi` ( Application launcher )
 
 
-### Window Management
+
+### Workspace Navigation
+- `SUPER + [1-9]`: Switch to workspace [1-9]
+- `SUPER + PERIOD`: Switch to the next workspace
+- `SUPER + COMMA`: Switch to the previous workspace
+
+### Window Movement and Resizing
+- `SUPER + [ARROW]`: Move focus in the specified direction
+- `SUPER + SHIFT + [ARROW]`: Move the active window in the specified direction
+- `SUPER + CTRL + [1-9]`: Move the active window to workspace [1-9]
+
+
+### Tiling Management
 
 - `SUPER + D`: Switch to Dwindle layout. This layout organizes windows in a cascading manner, starting from a central point and expanding outward.
 
@@ -33,18 +45,9 @@ SUPER is the windows key ( referred to as mainmod in the config file )
 - `SUPER + J`: Toggle split mode layout orientation ( horizontal and vertical splits )
 
 
-### Workspace Navigation
-- `SUPER + [1-9]`: Switch to workspace [1-9]
-- `SUPER + PERIOD`: Switch to the next workspace
-- `SUPER + COMMA`: Switch to the previous workspace
-
-### Window Movement and Resizing
-- `SUPER + [ARROW]`: Move focus in the specified direction
-- `SUPER + SHIFT + [ARROW]`: Move the active window in the specified direction
-- `SUPER + CTRL + [1-9]`: Move the active window to workspace [1-9]
-
 
 
 ### System Control
+- `SUPER + L` : Lock Screen 
 - `SUPER + SHIFT + M`: Exit to login screen
-
+- use terminal to shutdown or reboot
