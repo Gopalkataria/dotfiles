@@ -1,10 +1,16 @@
 # Hyprland dotfiles 
 
 
-## Installation 
+## Prerequisites
+Before proceeding, ensure that you have a fair amount of experience with Linux systems or have access to someone experienced in resolving issues on Linux.
 
-### knowen issues 
-some packages might not be availabl to install. you can still try to go along with the installation, but some things mightnot work ( for example screenshots depend on hyprshot)
+### Known Issues
+Please note that certain packages may not be available for installation. While you can proceed with the installation, some functionalities might not work as expected. For example, screenshots may depend on Hyprshot, which might not be available.
+
+### Backing Up
+It's essential to back up your important data before proceeding further. In worst-case scenarios, you might need to reinstall Linux, so having a backup is crucial.
+
+## Installation 
 
 ### Installing Hyprland 
 - for Arch/Opensuse/Nix : use your distro's package manager
@@ -12,7 +18,7 @@ some packages might not be availabl to install. you can still try to go along wi
 - Other distro's : refer to [Hyprland Wiki](https://wiki.hyprland.org/Getting-Started/Installation/) for the extent of support for your distro
     
 
-### Essentials
+### Essential packages 
 ```bash
 stow dunst swaybg swaylock hyprshot rofi brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer gnome-terminal 
 ```
@@ -25,7 +31,8 @@ also download and install jebrains mono nerd font from [here](https://www.nerdfo
 firefox neovim zathura spotify vscode
 ```
 
-To apply the configuration
+### Applying the configuration 
+
 ```bash
 git clone https://github.com/PraneethJain/dotfiles
 cd dotfiles
@@ -46,7 +53,7 @@ Please go through shortcuts.md before using hyprland, as opening apps and some b
 it doesn't list all preconfigured shortcuts but most of them. to view/change all shortcuts, open and edit `~/.config/hypr/hyprland.config` . take backup of default file in case you mess up.
 
 
-## Switching to hyprland
+### Switching to hyprland
 
 Logout and log back in. Before logging in, ensure that you have selected Wayland. To switch back, simply log out of Wayland and select your original desktop environment. You can find the dropdown menu to change the desktop environment on the login screen, usually located at the bottom right corner after selecting your name. Note that the location may vary depending on your Linux distribution.
 
