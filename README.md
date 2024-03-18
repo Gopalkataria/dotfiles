@@ -1,26 +1,10 @@
-# Hyprland dotfiles
+# Hyprland dotfiles 
 
-## Defaults
-
-<div align="center">
-
-|                 |                 |
-| --------------- | --------------- |
-| OS              | CachyOS         |
-| WM              | Hyprland        |
-| Screenshot      | Hyprshot        |
-| Wallapaper      | Hyprpaper       |
-| Lock Screen     | Hyprlock        |
-| Bar             | Waybar          |
-| Editor          | Neovim          |
-| Notifications   | Mako            |
-| Terminal        | Alacritty       |
-| Browser         | Firefox         |
-| PDF Viewer      | Zathura         |
-
-</div>
 
 ## Installation 
+
+### knowen issues 
+some packages might not be availabl to install. you can still try to go along with the installation, but some things mightnot work ( for example screenshots depend on hyprshot)
 
 ### Installing Hyprland 
 - for Arch/Opensuse/Nix : use your distro's package manager
@@ -30,8 +14,10 @@
 
 ### Essentials
 ```bash
-stow hyprland hyprshot hyprlock mako rofi rofi-emoji ttf-jetbrains-mono-nerd brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer
+stow dunst swaybg swaylock hyprshot rofi brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer gnome-terminal 
 ```
+
+also download and install jebrains mono nerd font from [here](https://www.nerdfonts.com/font-downloads) 
 
 ### Optionals
 > Note that the keybindings launch these defaults. To change, edit `hypr/hyprland.conf`
@@ -45,10 +31,27 @@ git clone https://github.com/PraneethJain/dotfiles
 cd dotfiles
 stow .config --target ~/.config/
 ```
+stow will link the files in this folders to the files in ~/.config. to edit config files, simply edit them in any location ( as they point to the same files )
+
+
 You might get an error in case some files already exist either
 - Rename/move it from `~/.config` for this config to apply
 - Rename/move it from `dotfiles` for keep your original config files
 * tip : .config is a hidden folder ( folders and files which begin with a '.' are hidden) to see them in you file manager, press `ctrl+h`
+
+## Next Steps 
+
+Please go through shortcuts.md before using hyprland, as opening apps and some basic actions are mostly keyboard driven. 
+
+it doesn't list all preconfigured shortcuts but most of them. to view/change all shortcuts, open and edit `~/.config/hypr/hyprland.config` . take backup of default file in case you mess up.
+
+
+## Switching to hyprland
+
+Logout and log back in. Before logging in, ensure that you have selected Wayland. To switch back, simply log out of Wayland and select your original desktop environment. You can find the dropdown menu to change the desktop environment on the login screen, usually located at the bottom right corner after selecting your name. Note that the location may vary depending on your Linux distribution.
+
+
+
 
 ## Screenshots 
 
