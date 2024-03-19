@@ -34,7 +34,7 @@ firefox neovim zathura spotify vscode
 ### Applying the configuration 
 
 ```bash
-git clone https://github.com/PraneethJain/dotfiles
+git clone https://github.com/Gopalkataria/dotfiles
 cd dotfiles
 stow .config --target ~/.config/
 ```
