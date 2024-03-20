@@ -20,7 +20,7 @@ It's essential to back up your important data before proceeding further. In wors
 
 ### Essential packages 
 ```bash
-stow dunst swaybg swaylock hyprshot rofi brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer gnome-terminal 
+stow dunst swaybg swaylock swayidle hyprshot rofi brightnessctl waybar networkmanager networkmanager-manager-applet blueman playerctl pamixer gnome-terminal 
 ```
 
 also download and install jebrains mono nerd font from [here](https://www.nerdfonts.com/font-downloads) 
