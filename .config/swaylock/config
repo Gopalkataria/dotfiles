@@ -6,8 +6,7 @@ image=$HOME/.config/swaylock/lockscreen.png
 
 color=1f1d2e80
 font="Noto Sans"
-indicator
-indicator-radius=40
+indicator-radius=80
 indicator-thickness=20
 
 text-color=e0def4
@@ -35,6 +34,5 @@ grace=1
 grace-no-mouse
 grace-no-touch
 fade-in=0.2
-ignore-empty-password
 
 
