@@ -4,7 +4,8 @@
 grim ~/.config/hypr/lock.png 
 
 #blur
-convert -scale 20% -blur 0x1 -resize 500% ~/.config/hypr/lock.png ~/.config/swaylock/lockscreen.png
+convert -scale 10% -blur 1x1 -resize 1000% ~/.config/hypr/lock.png ~/.config/swaylock/lockscreen.png
+#convert -scale 50% -blur 0x4 -resize 200% ~/.config/hypr/lock.png ~/.config/swaylock/lockscreen.png
 
 #delete the screenshot
 
