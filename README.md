@@ -1,7 +1,7 @@
 # Hyprland dotfiles
 
-![image](https://github.com/Gopalkataria/dotfiles/assets/2024-07-12-162257_hyprshot.png)
-![image](https://github.com/Gopalkataria/dotfiles/assets/2024-07-12-162431_hyprshot.png)
+![image](./assets/2024-07-12-162257_hyprshot.png)
+![image](./assets/2024-07-12-162431_hyprshot.png)
 
 #### My hyprland dotfiles for use with Arch linux. Thanks to [@PraneethJain](https://github.com/PraneethJain/dotfiles) for the base configs. Only Arch and it's variants are supported, you can try using these on other distro's though your mileage may vary. 
 
@@ -23,7 +23,7 @@ firefox neovim zathura spotify vscode
 ### Applying the configuration 
 
 ```bash
-git clone https://github.com/Gopalkataria/dotfiles
+git clone .
 cd dotfiles
 stow .config --target ~/.config/
 ```
