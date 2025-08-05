@@ -14,6 +14,11 @@ copy paste to .config and pray that it works. not beginner friendly, create a pr
 - [Community list of useful tools for hyprland](https://github.com/hyprland-community/awesome-hyprland)
 
 
+# wallpaper credit
+
+Kishore V ( sourced from unsplash )
+ 
+https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-on-the-beach-taVGqBGCAdo
 
 
 *Happy Ricing : )*
